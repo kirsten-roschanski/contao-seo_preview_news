@@ -1,0 +1,31 @@
+{
+    "name": "kirsten-roschanski/contao-seo_preview_news",
+    "type": "contao-module",
+    "description": "Contao Open Source CMS extension seo_preview_news",
+    "keywords": ["contao", "seo", "seo_preview_news"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name":"Valentin Sampl",
+            "email":"valentin.sampl@gmail.com",
+            "role":"Developer"
+        },        
+        {
+            "name":"Kirsten Roschanski",
+            "email":"git@kirsten-roschanski.de",
+            "role":"Developer"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.7",
+        "contao/core": ">=3.2,<4"
+        "valentin/contao-seo_preview": "*"
+    },
+    "extra": {
+        "contao": {
+            "sources": {
+                "": "system/modules/seo_preview_news"
+            }
+        }
+    }
+}
