@@ -18,7 +18,7 @@
     ],
     "require": {
         "php": ">=5.3.7",
-        "contao/core": ">=3.2,<4"
+        "contao/core": ">=3.2,<4",
         "valentin/contao-seo_preview": "*"
     },
     "extra": {
